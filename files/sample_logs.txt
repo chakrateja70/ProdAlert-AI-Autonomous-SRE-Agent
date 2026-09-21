@@ -1,0 +1,7 @@
+[2026-05-13 10:00:01] service=payment-service status=INFO message=Payment request received id=123
+[2026-05-13 10:00:05] service=payment-service status=ERROR message=DB Connection Timeout host=db-prod-1 timeout=30s
+[2026-05-13 10:00:06] service=payment-service status=ERROR message=DB Connection Timeout host=db-prod-1 timeout=30s
+[2026-05-13 10:00:15] service=payment-service status=WARN message=DB CPU utilization high cpu=95% 
+[2026-05-13 10:01:01] service=auth-service status=INFO message=User login success user_id=88
+[2026-05-13 10:01:10] service=payment-service status=ERROR message=Payment failed due to DB unavailable
+[2026-05-13 10:02:00] service=order-service status=INFO message=Order created id=456

@@ -1,0 +1,7 @@
+timestamp=2026-05-13T10:00:00 service=payment-service metric=cpu_usage value=95% threshold=80% status=CRITICAL
+timestamp=2026-05-13T10:00:00 service=payment-service metric=memory_usage value=78% threshold=85% status=OK
+timestamp=2026-05-13T10:00:00 service=payment-service metric=error_rate value=25% threshold=5% status=CRITICAL
+timestamp=2026-05-13T10:00:00 service=payment-service metric=p95_latency value=3200ms threshold=500ms status=CRITICAL
+timestamp=2026-05-13T10:00:00 service=payment-service metric=db_connections value=98/100 status=WARN
+timestamp=2026-05-13T10:01:00 service=auth-service metric=cpu_usage value=30% threshold=80% status=OK
+timestamp=2026-05-13T10:01:00 service=order-service metric=cpu_usage value=45% threshold=80% status=OK
